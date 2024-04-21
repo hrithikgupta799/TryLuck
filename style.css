@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    background-color: #7c589a;   
+}
+main>form{
+    /* border: 1px solid black; */
+    padding-top: 2.5rem;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+main>form>#content>h4{
+    margin: 1rem 0px;
+    font-size: 30px;
+    color: #040456;   
+}
+main>form>#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main>form>#content>input{
+    height: 35px;
+    width: 40vw;
+    font-size: 16px;
+    padding: 10px 7px;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 4rem;
+}
+main>form>#content>input::placeholder{
+    text-align: center;
+}
+main>form>#content>button{
+    padding: 10px 40px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid white ;
+    margin: 2rem 0px;
+    color: white;
+}
+main>form>#content>button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 10px 20px black;
+}
+main>form>#content>p{
+    margin-top: 1rem;
+    font-size: 30px;
+}
+main>form>#content>#attempLeft{
+    color: white; 
+    font-size: 26px; 
+    font-weight: 700;
+}
+main>form>#content>h6{
+    margin: 10px ;
+    font-size: 40px;
+    color: yellow;
+}
+main>form>#resultDiv>img{
+    height: 200px;
+    width: 200px;
+}
+main>form>#resultDiv>h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+main>form>#resultDiv>h2{
+    margin-top: 2rem;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+main>form>#resultDiv>h3{
+    margin-top: 2rem;
+    font-size: 30px;    
+}
+main>form>#resultDiv>h4{
+    margin: 1rem 0px;
+    font-size: 25px;
+}
+main>form>#resultDiv>button{
+    padding: 10px 40px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid white ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+main>form>#resultDiv>button>a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+main>form>#resultDiv>button:hover{
+    box-shadow: 0px 10px 20px black;
+}
+
+@media(max-width: 500px ){
+    main>form>#content>h4{
+        font-size: 20px;
+    }
+    main>form>#content>input{
+        height: 30px;
+        width: 70vw;
+        margin-top: 2rem;
+    }
+    main>form>#content>button{
+        margin: 1rem;
+    }
+    main>form>#content>p{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    main>form>#content>#attempLeft{
+        font-size: 20px; 
+        font-weight: 400;
+    }
+    main>form>#content>h6{
+        font-size: 20px;
+    }
+}
