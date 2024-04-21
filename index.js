@@ -30,7 +30,7 @@ startGame();
 form.addEventListener("submit",(event)=>{
     
     let number=parseInt(userInput.value)
-   console.log((number+" "+randomNumber));
+   //console.log((number+" "+randomNumber));
    if(validateNumber(number)){
     checkNumber(number);
    }
