@@ -65,7 +65,7 @@ function checkNumber(number) {
         <img src="./image/Happy-Emoji-Transparent.png" alt="" height=100 weight=100>
         <h3>You guessed it!
         <br> Great job!</h3>
-        <h4>You taken ${Math.abs(attempleft-5)} attemps.</h4>
+        <h4>You taken ${Math.abs(attempleft-5)} attemps .</h4>
         <button> <a href="./index.html">Play Again</a></button> `;
         content.innerHTML="";
     }
